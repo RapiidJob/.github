@@ -44,15 +44,17 @@ RapidJob aims to revolutionize the job market for blue-collar workers by providi
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-organization/RapidJob.git
-   cd RapidJob
+   git clone https://github.com/RapiidJob/Backend.git
+   
 2. **Backend Setup:**
     ```bash
-    cd backend
+    cd Backend
     npm install
     npm run dev
+
 3. **Frontend Setup:**
    ```bash
+   git clone https://github.com/RapiidJob/frontend.git
    cd frontend
    npm install
    npm run dev

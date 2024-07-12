@@ -34,7 +34,7 @@ RapidJob aims to revolutionize the job market for blue-collar workers by providi
 ## Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS
-- **Backend:** Node.js, Express
+- **Backend:** Django
 - **Database:** MongoDB
 - **State Management:** Redux Toolkit
 - **Authentication:** JWT (JSON Web Tokens)
@@ -49,8 +49,11 @@ RapidJob aims to revolutionize the job market for blue-collar workers by providi
 2. **Backend Setup:**
     ```bash
     cd Backend
-    npm install
-    npm run dev
+    python3 -m venv venv
+    source venv/bin/activate
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
 
 3. **Frontend Setup:**
    ```bash
@@ -65,7 +68,7 @@ RapidJob aims to revolutionize the job market for blue-collar workers by providi
 1. **Start the Backend Server:**
    ```bash
    cd backend
-   npm run dev
+   python manage.py createsuperuser
 
 2. **Start the Frontend Server:**
    ```bash
